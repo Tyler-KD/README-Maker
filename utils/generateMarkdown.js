@@ -20,21 +20,21 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "none") {
-    return `## License
-    Covered under the ${license} license.`;
+    return `Covered under the ${license} license.`;
   }
   return "";
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+return `# ${data.title}
+${renderLicenseBadge(data.license)}
 ## Description
 ${data.description}
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Contributing](#contributing)
 * [License](#license)
 ## Installation
 ${data.installation}
@@ -42,6 +42,9 @@ ${data.installation}
 ${data.usage}
 ## Contributing
 ${data.contributing}
+## License
+${renderLicenseSection(data.license)}
+${renderLicenseLink(data.license)}
 ## Tests
 ${data.tests}
 ## Questions
