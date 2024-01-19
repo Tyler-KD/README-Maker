@@ -30,7 +30,7 @@ const questions = [
         type: "list",
         message: "Which license is your application covered under?",
         name: "license",  
-        choices: ["MIT", "Apache 2.0", "GNU General Public License v3.0", "BSD2", "BSD3", "Boost Software License 1.0", "Creative Commons Zero v1.0", "Eclipse Public License 2.0", "none"],    
+        choices: ["MIT", "Apache2.0", "GNUGeneralPublicLicensev3.0", "BSD2", "BSD3", "BoostSoftwareLicense1.0", "CreativeCommonsZerov1.0", "EclipsePublicLicense2.0", "none"],    
     },
     {
         type: "input",

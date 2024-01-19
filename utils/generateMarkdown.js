@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "none") {
-    return `\n* [License](#license)\n`;
+    return `\n* (https://choosealicense.com/licenses/${license}/)\n`;
   }
   return "";
 }
@@ -36,6 +36,8 @@ ${data.description}
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
+* [Tests](#tests)
+* [Questions](#questions)
 ## Installation
 ${data.installation}
 ## Usage
@@ -48,7 +50,7 @@ ${renderLicenseLink(data.license)}
 ## Tests
 ${data.tests}
 ## Questions
-${data.author.email}
+If you have any questions, please visit [GitHub/${data.author}](https://github.com/${data.author}) or submit questions to ${data.email}.
 `;
 }
 
