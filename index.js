@@ -26,11 +26,11 @@ const questions = [
         message: "Provide instructions and examples for use:",
         name: "usage",        
     },
-    {
-        type: "list",
-        message: "Which license is your application covered under?",
-        name: "license",      
-    },
+    // {
+    //     type: "list",
+    //     message: "Which license is your application covered under?",
+    //     name: "license",      
+    // },
     {
         type: "input",
         message: "List your collaborators, if any, with links to their GitHub profiles:",
@@ -54,7 +54,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
 function init() {
