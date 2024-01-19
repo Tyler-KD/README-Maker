@@ -27,9 +27,9 @@ const questions = [
         name: "usage",        
     },
     {
-        type: "checkbox",
+        type: "list",
         message: "Which license is your application covered under?",
-        name: "license",        
+        name: "license",      
     },
     {
         type: "input",
