@@ -14,15 +14,15 @@ In order to run README Maker, open up the terminal once within the VS Code root 
 
 Attached is a screenshot of index.js:
 
-![index.js](./assets/images/README%20Maker%20index.js.png)
+![index.js](./assets/images/README%20Maker%20index.js(final).png)
 
 Attached is a screenshot of generateMarkdown.js:
 
-![generateMarkdown.js](./assets/images/README%20Maker%20generateMarkdown.js.png)
+![generateMarkdown.js](./assets/images/README%20Maker%20generateMarkdown.js(final).png)
 
 Attached is a screenshot of the sample README.md:
 
-![Sample README](./assets/images/README%20Maker%20Sample%20README.png)
+![Sample README](./assets/images/README%20MAKER%20Sample%20README(final).png)
 
 ## Video
 
